@@ -1,0 +1,16 @@
+{
+  "name": "clientless-chat",
+  "version": "1.0.0",
+  "description": "A client-less multi-user chat server using Netcat and the TCP protocol.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "Ted Alden-Templeman",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^12.1.0"
+  }
+}
